@@ -27,12 +27,12 @@ the measures:
 	
 tidyData_summa.txt have summarize mean, group by subject and activity. The measures in this file are:
  
- *..tBodyAcc.mean.X
- *..tBodyAcc.mean.Y
- *..tBodyAcc.mean.Z
- *..tGravityAcc.mean.X
- *..tGravityAcc.mean.Y
- *..tGravityAcc.mean.Z
- *..tBodyGyro.mean.X
- *..tBodyGyro.mean.Y
- *..tBodyGyro.mean.Z
+ ..*tBodyAcc.mean.X
+ ..*tBodyAcc.mean.Y
+ ..*tBodyAcc.mean.Z
+ ..*tGravityAcc.mean.X
+ ..*tGravityAcc.mean.Y
+ ..*tGravityAcc.mean.Z
+ ..*tBodyGyro.mean.X
+ ..*tBodyGyro.mean.Y
+ ..*tBodyGyro.mean.Z

@@ -1,5 +1,4 @@
 makeMeanSd<-function(dir="./UCI HAR Dataset/"){
-  library(plyr)
   ##columns to extract
   extract<-c(1,2,3,4,5,6,41,42,43,44,45,46,121,122,123,124,125,126)
   ##charge the data

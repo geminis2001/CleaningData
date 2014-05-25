@@ -1,7 +1,7 @@
 ###Code Book
 
 tidyData_MnSd.txt have this data:
-
+**subject**
 	**subject** : if of the volunteer. The values are from 1 to 30 
 	**activity**: the activity that the volunteer did. values =WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING
 

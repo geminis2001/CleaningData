@@ -55,7 +55,7 @@ makeMeanSd<-function(dir="./UCI HAR Dataset/"){
       datos[t1+i,2+j]<-train[i,extract[j]]
     }
   }
-  dirTotal<-paste(dir,"tidyData_MnSd.csv")
+  dirTotal<-paste(dir,"tidyData_MnSd.txt")
   write.table(datos,file=dirTotal,append=FALSE,sep=",",eol="\n",quote=FALSE,row.names=FALSE)
   
   ##make the summarize tidy data
@@ -70,7 +70,7 @@ makeMeanSd<-function(dir="./UCI HAR Dataset/"){
               tBodyGyro.mean.Y=mean(tBodyGyro.mean.Y),
               tBodyGyro.mean.Z=mean(tBodyGyro.mean.Z)
               )  
-  dirTotal<-paste(dir,"tidyData_summa.csv")
+  dirTotal<-paste(dir,"tidyData_summa.txt")
   write.table(aux,file=dirTotal,append=FALSE,sep=",",eol="\n",quote=FALSE,row.names=FALSE)
   
 }

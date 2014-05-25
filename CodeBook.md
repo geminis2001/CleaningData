@@ -7,7 +7,7 @@ tidyData_MnSd.txt have this data:
 
 the measures:
 
-1. tBodyAcc.mean.X   : Mean for body acceleration in X
+1. **tBodyAcc.mean.X**   : Mean for body acceleration in X
 2. tBodyAcc.mean.Y   : Idem for Y mean body acceleration
 3. tBodyAcc.mean.Z   : Idem for Z mean body acceleration
 4. tBodyAcc.std.X    : Standard Deviation for body acceleration X

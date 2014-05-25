@@ -1,8 +1,9 @@
 ###Code Book
 
 tidyData_MnSd.txt have this data:
-1. subject : if of the volunteer. The values are from 1 to 30
-2. activity: the activity that the volunteer did. values =WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING
+
+1. `subject` : if of the volunteer. The values are from 1 to 30
+2. `activity`: the activity that the volunteer did. values =WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING
 
 the measures:
 
@@ -27,12 +28,12 @@ the measures:
 	
 tidyData_summa.txt have summarize mean, group by subject and activity. The measures in this file are:
  
- ..*tBodyAcc.mean.X
- ..*tBodyAcc.mean.Y
- ..*tBodyAcc.mean.Z
- ..*tGravityAcc.mean.X
- ..*tGravityAcc.mean.Y
- ..*tGravityAcc.mean.Z
- ..*tBodyGyro.mean.X
- ..*tBodyGyro.mean.Y
- ..*tBodyGyro.mean.Z
+ 1. tBodyAcc.mean.X
+ 2. tBodyAcc.mean.Y
+ 3. tBodyAcc.mean.Z
+ 4. tGravityAcc.mean.X
+ 5. tGravityAcc.mean.Y
+ 6. tGravityAcc.mean.Z
+ 7. tBodyGyro.mean.X
+ 8. tBodyGyro.mean.Y
+ 9. tBodyGyro.mean.Z

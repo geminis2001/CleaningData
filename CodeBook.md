@@ -1,3 +1,5 @@
+###Code Book
+
 tidyData_MnSd.txt have this data
 
 	**subject** : if of the volunteer. The values are from 1 to 30 
